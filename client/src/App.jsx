@@ -20,7 +20,8 @@ import BookingsPage from "./components/pages/BookingsPage";
 import AllBookingsPage from "./components/pages/AllBookingsPage";
 
 
-axios.defaults.baseURL = "http://localhost:4000";
+// axios.defaults.baseURL = "http://localhost:4000";
+axios.defaults.baseURL = "https://dentalclinic.onrender.com";
 axios.defaults.withCredentials = true;
 
 function App() {
