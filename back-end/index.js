@@ -27,7 +27,7 @@ app.use(
   cors({
     credentials: true,
     // origin: "http://localhost:5173",
-    origin: "dental-clinic-delta.vercel.app",
+    origin: "https://dentalclinic-booking.netlify.app",
   })
 );
 
